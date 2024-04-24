@@ -1,9 +1,31 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+    "clientes": [
+      { "id": 1, 
+        "nome": "fulano", 
+        "cnpj": "43.895.649/0001-20"
+      },
+      { "id": 2,
+        "nome": "ciclano", 
+        "cnpj": "55.522.801/0001-09"
+      }
+    ],
+
+    "pedidos": [
+      { "id": 1,
+        "numero": 100,
+        "clienteCnpj": "55.522.801/0001-09",
+        "itens": ["item1","item2"]
+      },
+      { "id": 2, 
+        "numero": 200,
+        "clienteCnpj": "43.895.649/0001-20",
+        "itens": ["item3","item4"]
+      },
+      { "id": 3, 
+        "numero": 300,
+        "clienteCnpj": "55.522.801/0001-09",
+        "itens": ["item5","item6"]
+      }
+    ]
+    
 }
