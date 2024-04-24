@@ -50,6 +50,34 @@
         "clienteCnpj": "63.879.199/0001-90",
         "itens": ["item16","item17"]
       }
-    ]
+    ],
+    
+    "agenda": [
+      { "id": 1, 
+        "clienteId": 2, 
+        "data": "20/05/2024",
+        "observacao": "motivo da visita"
+      },
+      { "id": 2, 
+        "clienteId": 1, 
+        "data": "14/05/2024",
+        "observacao": "motivo da visita"
+      },
+      { "id": 3, 
+        "clienteId": 3, 
+        "data": "24/05/2024",
+        "observacao": "motivo da visita"
+      },
+        { "id": 4, 
+        "clienteId": 2, 
+        "data": "20/05/2024",
+        "observacao": "motivo da visita"
+      },
+        { "id": 5, 
+        "clienteId": 2, 
+        "data": "05/05/2024",
+        "observacao": "motivo da visita"
+      }
+    ],
     
 }
