@@ -1,115 +1,102 @@
 {
-    "clientes": [
-      { "id": 1, 
-        "nome": "fulano", 
-        "cnpj": "43.895.649/0001-20"
-      },
-      { "id": 2,
-        "nome": "ciclano", 
-        "cnpj": "55.522.801/0001-09"
-      },
-      { "id": 3,
-        "nome": "beutrano", 
-        "cnpj": "63.879.199/0001-90"
-      }
-    ],
-
-    "pedidos": [
-      { "id": 1,
-        "numero": 100,
-        "clienteCnpj": "55.522.801/0001-09",
-        "itens": ["item1","item2"]
-      },
-      { "id": 2, 
-        "numero": 200,
-        "clienteCnpj": "43.895.649/0001-20",
-        "itens": ["item3","item4"]
-      },
-      { "id": 3, 
-        "numero": 300,
-        "clienteCnpj": "55.522.801/0001-09",
-        "itens": ["item5","item6"]
-      },
-      { "id": 4, 
-        "numero": 400,
-        "clienteCnpj": "43.895.649/0001-20",
-        "itens": ["item7","item8","item9","item10","item11"]
-      },
-      { "id": 5, 
-        "numero": 500,
-        "clienteCnpj": "63.879.199/0001-90",
-        "itens": ["item12","item13"]
-      },
-      { "id": 6, 
-        "numero": 600,
-        "clienteCnpj": "63.879.199/0001-90",
-        "itens": ["item14","item15"]
-      },
-      { "id": 7, 
-        "numero": 700,
-        "clienteCnpj": "63.879.199/0001-90",
-        "itens": ["item16","item17"]
-      }
-    ],
-    
-    "agenda": [
-      { "id": 1, 
-        "clienteId": 2, 
-        "data": "20/05/2024",
-        "observacao": "motivo da visita"
-      },
-      { "id": 2, 
-        "clienteId": 1, 
-        "data": "14/05/2024",
-        "observacao": "motivo da visita"
-      },
-      { "id": 3, 
-        "clienteId": 3, 
-        "data": "24/05/2024",
-        "observacao": "motivo da visita"
-      },
-        { "id": 4, 
-        "clienteId": 2, 
-        "data": "20/05/2024",
-        "observacao": "motivo da visita"
-      },
-        { "id": 5, 
-        "clienteId": 2, 
-        "data": "05/05/2024",
-        "observacao": "motivo da visita"
-      }
-    ],
-
-    "pesquisa": [
+  "clientes": [
     { "id": 1, 
-      "clienteId": 2, 
+      "nome": "fulano", 
+      "cnpj": "43.895.649/0001-20"
+    },
+    { "id": 2,
+      "nome": "ciclano", 
+      "cnpj": "55.522.801/0001-09"
+    },
+    { "id": 3,
+      "nome": "beutrano", 
+      "cnpj": "63.879.199/0001-90"
+    }
+  ],
+
+  "pedidos": [
+    { "id": 1,
+      "numero": 100,
+      "clienteCnpj": "55.522.801/0001-09",
+      "itens": ["item1","item2"]
+    },
+    { "id": 2, 
+      "numero": 200,
+      "clienteCnpj": "43.895.649/0001-20",
+      "itens": ["item3","item4"]
+    },
+    { "id": 3, 
+      "numero": 300,
+      "clienteCnpj": "55.522.801/0001-09",
+      "itens": ["item5","item6"]
+    },
+    { "id": 4, 
+      "numero": 400,
+      "clienteCnpj": "43.895.649/0001-20",
+      "itens": ["item7","item8","item9","item10","item11"]
+    },
+    { "id": 5, 
+      "numero": 500,
+      "clienteCnpj": "63.879.199/0001-90",
+      "itens": ["item12","item13"]
+    },
+    { "id": 6, 
+      "numero": 600,
+      "clienteCnpj": "63.879.199/0001-90",
+      "itens": ["item14","item15"]
+    },
+    { "id": 7, 
+      "numero": 700,
+      "clienteCnpj": "63.879.199/0001-90",
+      "itens": ["item16","item17"]
+    }
+  ],
+  
+  "agenda": [
+    { "id": 1, 
+      "clienteCnpj": "55.522.801/0001-09", 
+      "data": "20/05/2024",
+      "observacao": "motivo da visita"
+    },
+    { "id": 2, 
+      "clienteCnpj": "43.895.649/0001-20", 
+      "data": "14/05/2024",
+      "observacao": "motivo da visita"
+    },
+    { "id": 3, 
+      "clienteCnpj": "55.522.801/0001-09", 
+      "data": "24/05/2024",
+      "observacao": "motivo da visita"
+    },
+      { "id": 4, 
+      "clienteCnpj": "63.879.199/0001-90", 
+      "data": "20/05/2024",
+      "observacao": "motivo da visita"
+    },
+      { "id": 5, 
+      "clienteCnpj": "43.895.649/0001-20", 
+      "data": "05/05/2024",
+      "observacao": "motivo da visita"
+    }
+  ],
+  "pesquisa": [
+    { "id": 1, 
+      "clienteCnpj": "63.879.199/0001-90",
       "probRec": "8",
       "avalVendedor": "9",
       "observacao": "sem obs"
     },
     { "id": 2, 
-      "clienteId": 1, 
+      "clienteCnpj": "43.895.649/0001-20", 
       "probRec": "7",
       "avalVendedor": "9",
       "observacao": "sem obs"
     },
     { "id": 3, 
-      "clienteId": 3, 
+      "clienteCnpj": "55.522.801/0001-09", 
       "probRec": "6",
       "avalVendedor": "6",
       "observacao": "sem obs"
-    },
-    { "id": 4, 
-      "clienteId": 2, 
-      "probRec": "8",
-      "avalVendedor": "10",
-      "observacao": "sem obs"
-    },
-    { "id": 5, 
-      "clienteId": 2, 
-      "probRec": "7",
-      "avalVendedor": "9",
-      "observacao": "sem obs"
     }
-  ]   
+  ]
 }
