@@ -68,17 +68,18 @@
       "data": "24/05/2024",
       "observacao": "motivo da visita"
     },
-      { "id": 4, 
+    { "id": 4, 
       "clienteCnpj": "63.879.199/0001-90", 
       "data": "20/05/2024",
       "observacao": "motivo da visita"
     },
-      { "id": 5, 
+    { "id": 5, 
       "clienteCnpj": "43.895.649/0001-20", 
       "data": "05/05/2024",
       "observacao": "motivo da visita"
     }
   ],
+  
   "pesquisa": [
     { "id": 1, 
       "clienteCnpj": "63.879.199/0001-90",
