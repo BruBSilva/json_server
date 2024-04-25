@@ -2,15 +2,18 @@
   "clientes": [
     { "id": 1, 
       "nome": "fulano", 
-      "cnpj": "43.895.649/0001-20"
+      "cnpj": "43.895.649/0001-20",
+      "segmento": "Indústrias"
     },
     { "id": 2,
       "nome": "ciclano", 
-      "cnpj": "55.522.801/0001-09"
+      "cnpj": "55.522.801/0001-09",
+      "segmento": "Varejo e PME"
     },
     { "id": 3,
       "nome": "beutrano", 
-      "cnpj": "63.879.199/0001-90"
+      "cnpj": "63.879.199/0001-90",
+      "segmento": "Representantes"
     }
   ],
 
